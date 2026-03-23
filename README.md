@@ -10,7 +10,7 @@ When coding with AI, it is easy to ship fast but lose track of what changed, why
 
 Use this MCP server to make your agent keep a running project log in Obsidian while you build.
 
-## From the author
+## From the creator
 
 This project was built for one main purpose: take better notes while programming with AI.
 
