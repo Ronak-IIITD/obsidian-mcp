@@ -1,20 +1,30 @@
 {
-  "name": "obsidian-mcp",
-  "version": "1.0.0",
+  "name": "@jod_panda/obsidian-mcp",
+  "version": "1.0.2",
   "description": "MCP server for Obsidian — save, search, and manage vault notes from any AI coding agent like OpenCode",
   "main": "dist/index.js",
   "bin": {
-    "obsidian-mcp": "./dist/index.js"
+    "obsidian-mcp": "dist/index.js"
   },
   "type": "module",
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc && chmod +x dist/index.js",
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
     "lint": "tsc --noEmit"
   },
-  "keywords": ["obsidian", "mcp", "opencode", "claude", "notes", "model-context-protocol"],
+  "keywords": [
+    "obsidian",
+    "mcp",
+    "opencode",
+    "claude",
+    "notes",
+    "model-context-protocol"
+  ],
   "author": "Ronak-IIITD",
   "license": "MIT",
   "dependencies": {
@@ -28,5 +38,8 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
