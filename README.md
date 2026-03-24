@@ -100,16 +100,15 @@ Build for production:
 npm run build
 ```
 
-## Publish
+## Contributing
 
-If you are publishing updates to npm:
+Contributors are welcome to improve code, tests, docs, and overall developer experience.
 
-```bash
-npm version patch
-npm publish
-```
+Release policy:
 
-Note: npm does not allow publishing over an existing version, so bump the version every release.
+- Do not publish this package to npm from contributor environments.
+- Do not bump release versions for npm publishing unless requested by the maintainer.
+- Open a PR with your changes; the maintainer handles versioning, release, and npm publish.
 
 ## Safety notes
 
