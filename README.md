@@ -63,7 +63,7 @@ Add this MCP server to your MCP client config:
       "command": "npx",
       "args": ["@jod_panda/obsidian-mcp"],
       "env": {
-        "VAULT_PATH": "/home/ronak-anand/Documents/ObsidianVault"
+        "VAULT_PATH": "YOUR_VAULT_PATH"
       }
     }
   }
